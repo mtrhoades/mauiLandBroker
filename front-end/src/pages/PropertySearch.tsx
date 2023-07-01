@@ -1,5 +1,3 @@
-import React from 'react'
-
 const PropertySearch = () => {
   return (
     <div>Property Search</div>

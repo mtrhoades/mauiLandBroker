@@ -1,12 +1,12 @@
-import ReactGA from "react-ga";
-import { Routes, Route } from "react-router-dom";
-import NavigationBar from "./layouts/NavigationBar";
-import Footer from "./layouts/Footer";
+import ReactGA from 'react-ga';
+import { Routes, Route } from 'react-router-dom';
+import NavigationBar from './layouts/NavigationBar';
+import Footer from './layouts/Footer';
 
-import Home from "./pages/Home";
-import PropertySearch from "./pages/PropertySearch";
-import Associations from "./pages/Associations";
-import About from "./pages/About";
+import Home from './pages/Home';
+import PropertySearch from './pages/PropertySearch';
+import Associations from './pages/Associations';
+import About from './pages/About';
 
 function App() {
   ReactGA.initialize("UA-000000-01");

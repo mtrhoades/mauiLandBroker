@@ -1,0 +1,28 @@
+.hero {
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 28px;
+}
+
+.hero-left-section {
+    width: 50%;
+    text-align: center;
+}
+  
+.hero-right-section {
+    width: 50%;
+    display: flex;
+}
+
+.hero-img {
+width: 40%;
+}
+
+@media (max-width: 780px) {
+    .hero-left-section {
+      width: 50%;
+    }
+    .hero-img {
+        width: 100%;
+    }
+}

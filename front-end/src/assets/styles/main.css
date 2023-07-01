@@ -11,6 +11,7 @@
 @import "base/typography.css";
 
 /* Components */
+@import "components/hero.css";
 
 /* Layouts */
 @import "layouts/navigationBar.css";
