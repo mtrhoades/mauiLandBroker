@@ -1,0 +1,10 @@
+.navbar-spacer {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  
+  .bg-primary {
+    background-color: #412615 !important;
+    filter: brightness(1.1);
+  }
+  

@@ -13,6 +13,8 @@
 /* Components */
 
 /* Layouts */
+@import "layouts/navigationBar.css";
+@import "layouts/footer.css";
 
 /* Pages */
 
