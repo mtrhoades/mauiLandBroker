@@ -1,0 +1,18 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: beige;
+  }
+
+/* Base */
+@import "base/global.css";
+@import "base/typography.css";
+
+/* Components */
+
+/* Layouts */
+
+/* Pages */
+
