@@ -38,8 +38,8 @@ function NavigationBar() {
               </Nav.Link>
             </Nav>
             <div className='header'>
-              <h1>Call Us Today! (808)442-3036</h1>
-              <h4>A full service real estate sales and management company</h4>
+              <h2>Call Us Today! (808)442-3036</h2>
+              <h5>A full service real estate sales and management company</h5>
             </div>
             <Form style={{paddingLeft: '60px', paddingRight: '20px'}} className="d-flex">
               <Form.Control

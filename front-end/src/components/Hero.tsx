@@ -10,12 +10,12 @@ const Hero = () => {
     <div className='hero'>
         <div className='hero-left-section'>
           <h4>
-            Maui is our Paradise. Maui Land Broker and Property Management, Inc. can help you find the perfect property or build your new custom cedar home. Shirley and Joe have over 25 years experience in the construction and real estate market within the island of Maui. We will help you become part of this wonderful community. We specialize in properties in Central and South Maui. Please use our services. Our roots are in the island and I can give you information from a kama'aina perspective.
+            Maui is our Paradise. Maui Land Broker and Property Management, Inc. can help you find the perfect property. Shirley and Joe have over 25 years experience in the construction and real estate market within the island of Maui. We will help you become part of this wonderful community.
           </h4>
         </div>
 
       <div className='hero-right-section'>
-        <Carousel>
+        <Carousel fade >
           <Carousel.Item>
             <img
               className="d-block w-100"

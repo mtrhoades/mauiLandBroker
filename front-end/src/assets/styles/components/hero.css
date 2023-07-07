@@ -14,7 +14,7 @@
     width: 60%;
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1021px) {
     .hero {
         display: flex;
         flex-direction: column;
@@ -25,7 +25,7 @@
         width: 100%;
     }
     .hero-left-section h4 {
-        font-size: 1em;
+        font-size: 1rem;
     }
     .hero-right-section {
         width: 100%;

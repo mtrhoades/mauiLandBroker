@@ -2,8 +2,11 @@
     text-align: center;
 }
 
-@media screen and (max-width: 424px) {
-    .header {
-        display: none;
+@media screen and (max-width: 1021px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .header h4 {
+        font-size: 1rem;
     }
 }
