@@ -9,7 +9,7 @@ import MLBlogo from '../assets/images/MLBlogo.png';
 function NavigationBar() {
   return (
     <>
-      <Navbar style={{paddingLeft: '20px'}} expand="lg" className="bg-body-tertiary">
+      <Navbar style={{paddingLeft: '20px'}} expand="lg" className=" navBar bg-body-tertiary" fixed="top">
         <Container fluid>
           <Navbar.Brand href="#">
             <img alt='logo' src={MLBlogo}></img>
