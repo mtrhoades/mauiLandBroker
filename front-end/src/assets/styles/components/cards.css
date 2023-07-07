@@ -1,0 +1,17 @@
+.cardContainer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardGroup {
+    width: 70%;
+}
+
+.inbetween {
+    width: 100px;
+}
+

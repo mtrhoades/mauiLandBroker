@@ -16,7 +16,6 @@ function App() {
 
   return (
     <>
-      {/* <img src={MLBlogo}></img> */}
       <NavigationBar />
       <div className='navbar-spacer footer-spacer'>
         <Routes>

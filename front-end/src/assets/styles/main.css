@@ -12,6 +12,8 @@
 
 /* Components */
 @import "components/hero.css";
+@import "components/cards.css";
+@import "components/contact.css";
 
 /* Layouts */
 @import "layouts/navigationBar.css";
