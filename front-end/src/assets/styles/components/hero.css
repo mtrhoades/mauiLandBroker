@@ -5,24 +5,12 @@
 }
 
 .hero-left-section {
-    width: 50%;
+    width: 40%;
     text-align: center;
+    padding: 40px;
 }
   
 .hero-right-section {
-    width: 50%;
-    display: flex;
+    width: 60%;
 }
 
-.hero-img {
-width: 40%;
-}
-
-@media (max-width: 780px) {
-    .hero-left-section {
-      width: 50%;
-    }
-    .hero-img {
-        width: 100%;
-    }
-}

@@ -2,6 +2,8 @@ import ReactGA from 'react-ga';
 import { Routes, Route } from 'react-router-dom';
 import NavigationBar from './layouts/NavigationBar';
 import Footer from './layouts/Footer';
+// import MLBlogo from './assets/images/MLBlogo.png';
+
 
 import Home from './pages/Home';
 import PropertySearch from './pages/PropertySearch';
@@ -14,6 +16,7 @@ function App() {
 
   return (
     <>
+      {/* <img src={MLBlogo}></img> */}
       <NavigationBar />
       <div className='navbar-spacer footer-spacer'>
         <Routes>
