@@ -1,0 +1,22 @@
+.contactContainer {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: #E5E5E5;
+    font-size: 2rem;
+}
+
+.contactItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstContactItems {
+    padding-right: 100px;
+}
