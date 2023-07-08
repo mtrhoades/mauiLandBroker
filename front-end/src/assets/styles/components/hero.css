@@ -12,6 +12,9 @@
     width: 40%;
     text-align: center;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
   
 .hero-right-section {

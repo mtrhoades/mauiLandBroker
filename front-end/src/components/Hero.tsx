@@ -1,4 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import maluhiaPic from '../assets/images/maluhiaPic.jpeg';
 import maluhiaPic2 from '../assets/images/maluhiaPic2.jpeg';
 import maluhiaPic3 from '../assets/images/maluhiaPic3.jpeg';
@@ -12,6 +14,15 @@ const Hero = () => {
           <h4>
             Maui is our Paradise. Maui Land Broker and Property Management, Inc. can help you find the perfect property. Shirley and Joe have over 25 years experience in the construction and real estate market within the island of Maui. We will help you become part of this wonderful community.
           </h4>
+          <Form className="d-flex">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-success">Search</Button>
+            </Form>
         </div>
 
       <div className='hero-right-section'>

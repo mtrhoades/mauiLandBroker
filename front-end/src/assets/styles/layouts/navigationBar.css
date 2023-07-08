@@ -1,7 +1,18 @@
 .header {
     text-align: center;
     color: #3B2313;
+    padding-right: 40px;
 }
+
+.secondContactItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    padding-right: 30px;
+}
+
 
 @media screen and (max-width: 1021px) {
     .header h1 {

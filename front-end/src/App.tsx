@@ -8,7 +8,7 @@ import Footer from './layouts/Footer';
 import Home from './pages/Home';
 import PropertySearch from './pages/PropertySearch';
 import Associations from './pages/Associations';
-import About from './pages/About';
+import Agents from './pages/Agents';
 
 function App() {
   ReactGA.initialize("UA-000000-01");
@@ -20,7 +20,7 @@ function App() {
       <div className='navbar-spacer footer-spacer'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='about' element={<About />} />
+          <Route path='agents' element={<Agents />} />
           <Route path='propertysearch' element={<PropertySearch />} />
           <Route path='associations' element={<Associations />} />
         </Routes>

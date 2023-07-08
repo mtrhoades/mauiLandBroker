@@ -1,10 +1,6 @@
 import { MdOutlinePhoneIphone } from 'react-icons/md';
 import { MdOutlineEmail } from 'react-icons/md';
 import { MdOutlineLocationOn } from 'react-icons/md';
-// import { SocialIcon } from 'react-social-icons';
-import { SiFacebook } from 'react-icons/si';
-import { FiInstagram } from 'react-icons/fi';
-import { FiTwitter } from 'react-icons/fi';
 
 const Contact = () => {
 
@@ -23,25 +19,6 @@ const bgStyle = {backgroundColor: "#FAFAFA", color: "#3B2313"}
                 </div>
                 <div className="contact location">
                     <MdOutlineLocationOn style={bgStyle}/> 104 N. Market Street Wailuku, HI 96793
-                </div>
-            </div>
-            <div className="contact secondContactItems">
-                <div className="contact facebook">
-                    <a href="https://www.facebook.com/MauiLandBroker/">
-                        <button>
-                            <SiFacebook style={bgStyle}/> 
-                        </button>
-                    </a>
-                </div>
-                <div className="contact instagram">
-                    <button>
-                        <FiInstagram style={bgStyle}/>
-                    </button>
-                </div>
-                <div className="contact twitter">
-                    <button>
-                        <FiTwitter style={bgStyle}/>
-                    </button>
                 </div>
             </div>
         </div>
