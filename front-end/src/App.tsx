@@ -6,9 +6,10 @@ import Footer from './layouts/Footer';
 
 
 import Home from './pages/Home';
-import PropertySearch from './pages/PropertySearch';
+import Listings from './pages/Listings';
 import Associations from './pages/Associations';
 import Agents from './pages/Agents';
+import Rentals from './pages/Rentals';
 
 function App() {
   ReactGA.initialize("UA-000000-01");
@@ -21,8 +22,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='agents' element={<Agents />} />
-          <Route path='propertysearch' element={<PropertySearch />} />
+          <Route path='listings' element={<Listings />} />
           <Route path='associations' element={<Associations />} />
+          <Route path='rentals' element={<Rentals />} />
         </Routes>
       </div>
       <Footer />

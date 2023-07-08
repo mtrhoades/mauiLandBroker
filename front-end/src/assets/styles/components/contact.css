@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.contact {
+.contactBottom {
     font-size: 1.5rem;
 }
 
@@ -22,5 +22,8 @@
 @media screen and (max-width: 1021px) {
     .contact {
         font-size: 1.5rem;
+    }
+    .contactContainer {
+        width: 100%;
     }
 }

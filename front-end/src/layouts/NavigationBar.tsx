@@ -10,11 +10,9 @@ import { FiTwitter } from 'react-icons/fi';
 
 function NavigationBar() {
 
-  const bgStyle = {backgroundColor: "#FAFAFA", color: "#3B2313"}
-
   return (
     <>
-      <Navbar style={{paddingLeft: '20px'}} expand="lg" className=" navBar bg-body-tertiary" fixed="top">
+      <Navbar style={{paddingLeft: '20px'}} expand="lg" className="bg-body-tertiary" fixed="top">
         <Container fluid>
           <Navbar.Brand href="/">
             <img alt="logo" src={MLBlogo}></img>
@@ -22,41 +20,51 @@ function NavigationBar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0 fs-5"
+              className="me-auto my-2 my-lg-0 fs-4"
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
               <Nav.Link href="/agents">Agents</Nav.Link>
 
               <NavDropdown title="Associations" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Hale Kaiola</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Koa Kai</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Kualono</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Kulamalu Hilltop</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Liholani Golf Villas</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Maluhia Country Ranches</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Pu'uone Terrace</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Wailuku Country Estates</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Waiolani Elua</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Waiolani Mauka</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Wailuku Parkside</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Waikapu Gardens</NavDropdown.Item>
+                <NavDropdown.Item href="/associations">Waiale Elua</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
+                <NavDropdown.Item href="/associations">
                   Something else here?
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
+              <NavDropdown title="Listings" id="navbarScrollingDropdown">
+                <NavDropdown.Item href="/listings">Listing # 1</NavDropdown.Item>
+                <NavDropdown.Item href="/listings">Listing # 2</NavDropdown.Item>
+                <NavDropdown.Item href="/listings">Listing # 3</NavDropdown.Item>
+                <NavDropdown.Item href="/listings">Listing # 4</NavDropdown.Item>
+                <NavDropdown.Item href="/listings">Listing # 5</NavDropdown.Item>
+                <NavDropdown.Item href="/listings">Listing # 6</NavDropdown.Item>
+                <NavDropdown.Item href="/listings">Listing # 7</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
+                <NavDropdown.Item href="/listings">
+                  Something else here?
+                </NavDropdown.Item>
+              </NavDropdown>
+
+              <NavDropdown title="Rentals" id="navbarScrollingDropdown">
+                <NavDropdown.Item href="/rentals">Rental Information</NavDropdown.Item>
+                <NavDropdown.Item href="/rentals">Available Rentals</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="/rentals">
                   Something else here?
                 </NavDropdown.Item>
               </NavDropdown>
@@ -65,22 +73,22 @@ function NavigationBar() {
               <h2>Call Us Today! (808)442-3036</h2>
               <h5>A full service real estate sales and management company</h5>
             </div>
-            <div className="contact secondContactItems">
-              <div className="contact facebook">
+            <div className="contactTop secondContactItems">
+              <div className="contactTop facebook">
                 <a href="https://www.facebook.com/MauiLandBroker/">
                   <button>
-                    <SiFacebook style={bgStyle}/> 
+                    <SiFacebook /> 
                   </button>
                 </a>
               </div>
-              <div className="contact instagram">
+              <div className="contactTop instagram">
                 <button>
-                  <FiInstagram style={bgStyle}/>
+                  <FiInstagram />
                 </button>
               </div>
-              <div className="contact twitter">
+              <div className="contactTop twitter">
                 <button>
-                  <FiTwitter style={bgStyle}/>
+                  <FiTwitter />
                 </button>
               </div>
             </div>

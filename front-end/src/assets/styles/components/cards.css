@@ -1,4 +1,5 @@
 .cardContainer {
+    /* background-color: #B2C035; */
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -11,8 +12,19 @@
     width: 70%;
 }
 
+.cardCustom {
+    align-items: center;
+    padding: 20px;
+    border: solid 7px #3B2313;
+}
+
+.cardCustom img {
+    width: 25%;
+}
+
 .inbetween {
     width: 1%;
+    /* background-color: #B2C035; */
 }
 
 @media screen and (max-width: 1021px) {
