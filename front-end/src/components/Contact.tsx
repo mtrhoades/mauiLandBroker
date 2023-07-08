@@ -8,7 +8,7 @@ import { FiTwitter } from 'react-icons/fi';
 
 const Contact = () => {
 
-const bgStyle = {backgroundColor: "#FAFAFA"}
+const bgStyle = {backgroundColor: "#FAFAFA", color: "#3B2313"}
 
   return (
     <div className="contact contactContainer">
