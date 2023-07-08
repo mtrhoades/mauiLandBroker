@@ -20,3 +20,9 @@
 .firstContactItems {
     padding-right: 100px;
 }
+
+@media screen and (max-width: 1021px) {
+    .contact {
+        font-size: 1.5rem;
+    }
+}
