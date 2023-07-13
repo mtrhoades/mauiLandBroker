@@ -12,7 +12,7 @@ function NavigationBar() {
 
   return (
     <>
-      <Navbar style={{paddingLeft: '20px'}} expand="lg" className="bg-body-tertiary" fixed="top">
+      <Navbar style={{paddingLeft: '20px'}} expand="lg" className="navBar" fixed="top">
         <Container fluid>
           <Navbar.Brand href="/">
             <img alt="logo" src={MLBlogo}></img>
@@ -21,7 +21,7 @@ function NavigationBar() {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0 fs-4"
-              style={{ maxHeight: '100px' }}
+              style={{ maxHeight: '100px', paddingLeft: "100px" }}
               navbarScroll
             >
               <Nav.Link href="/agents">Agents</Nav.Link>
@@ -71,23 +71,23 @@ function NavigationBar() {
             </Nav>
             <div className='header'>
               <h2>Call Us Today! (808)442-3036</h2>
-              <h5>A full service real estate sales and management company</h5>
+              {/* <h5>A full service real estate sales and management company</h5> */}
             </div>
-            <div className="contactTop secondContactItems">
-              <div className="contactTop facebook">
+            <div className="socialIconsDiv">
+              <div>
                 <a href="https://www.facebook.com/MauiLandBroker/">
-                  <button>
+                  <button className="socialIcons">
                     <SiFacebook /> 
                   </button>
                 </a>
               </div>
-              <div className="contactTop instagram">
-                <button>
+              <div>
+                <button className="socialIcons">
                   <FiInstagram />
                 </button>
               </div>
-              <div className="contactTop twitter">
-                <button>
+              <div>
+                <button className="socialIcons">
                   <FiTwitter />
                 </button>
               </div>

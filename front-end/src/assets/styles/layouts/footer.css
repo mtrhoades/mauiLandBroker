@@ -6,11 +6,13 @@
     display: flex;
     justify-content: center;
   }
+
+  /* .footer-list */
   
   .footer-basic {
     padding: 0px 0;
-    /* background-color: #412615; */
-    color: var(--Eel);
+    background-color: #412615;
+    /* color: var(--Eel); */
     /* position: fixed; */
     padding: 5px;
     bottom: 0;
@@ -33,7 +35,7 @@
   }
   
   .footer-basic ul a {
-    color: inherit;
+    color: #FAFAFA;
     text-decoration: none;
     opacity: 0.8;
   }

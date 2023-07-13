@@ -18,14 +18,16 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <div className='navbar-spacer footer-spacer'>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='agents' element={<Agents />} />
-          <Route path='listings' element={<Listings />} />
-          <Route path='associations' element={<Associations />} />
-          <Route path='rentals' element={<Rentals />} />
-        </Routes>
+      <div>
+        <div className="routes">
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='agents' element={<Agents />} />
+            <Route path='associations' element={<Associations />} />
+            <Route path='listings' element={<Listings />} />
+            <Route path='rentals' element={<Rentals />} />
+          </Routes>
+        </div>
       </div>
       <Footer />
     </>

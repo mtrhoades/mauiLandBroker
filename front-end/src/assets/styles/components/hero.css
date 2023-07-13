@@ -11,10 +11,11 @@
 .hero-left-section {
     width: 40%;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: #FAFAFA;
 }
   
 .hero-right-section {

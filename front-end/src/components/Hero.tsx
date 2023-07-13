@@ -10,7 +10,6 @@ import maluhiaPic5 from '../assets/images/maluhiaPic5.jpeg';
 const Hero = () => {
   return (
     <div className='hero'>
-      <div className='hero2'></div>
         <div className='hero-left-section'>
           <h4>
             Maui is our Paradise. Maui Land Broker and Property Management, Inc. can help you find the perfect property. Shirley and Joe have over 25 years experience in the construction and real estate market within the island of Maui. We will help you become part of this wonderful community.

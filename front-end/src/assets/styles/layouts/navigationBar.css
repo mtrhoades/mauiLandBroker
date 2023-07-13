@@ -1,16 +1,21 @@
-.header {
-    text-align: center;
-    padding-right: 40px;
+.navBar {
+    background-color: #FAFAFA;
 }
 
-.secondContactItems {
+.header {
+    text-align: center;
+    padding-right: 100px;
+}
+
+.socialIconsDiv {
     display: flex;
     flex-direction: row;
 }
 
-.contactTop {
+.socialIcons {
     padding-right: 30px;
     font-size: 2.25rem;
+    background-color: #FAFAFA;
 }
 
 
