@@ -3,7 +3,7 @@ const Footer = () => {
     <div className='footer-basic'>
     <footer>
       <ul className='footer-list'>
-        <li>Maui Land Broker © 2023</li>
+        <li style={{color: "#FAFAFA"}}>Maui Land Broker © 2023</li>
         <li>
           <a href='./termsofuse'>Terms</a>
         </li>

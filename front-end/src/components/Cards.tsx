@@ -5,7 +5,6 @@ import forRentIcon from '../assets/images/forRentIcon.png';
 import calculatorIcon from '../assets/images/calculatorIcon.png';
 import hoaIcon from '../assets/images/hoaIcon.png';
 
-import leafBgImg from '../assets/images/palmImg.png';
 
 const Cards = () => {
   return (
