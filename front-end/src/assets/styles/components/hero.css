@@ -2,10 +2,13 @@
     display: flex;
     background-color: #3B2313;
     padding-top: 186px;
-    padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     margin-bottom: -4.5px;
+}
+
+.hero h3 {
+    color: #7E7D32;
 }
 
 .hero-left-section {
@@ -14,12 +17,41 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     color: #FAFAFA;
 }
   
 .hero-right-section {
     width: 60%;
+}
+
+.searchForm {
+    width: 60%;
+}
+
+.first3Form {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.searchPrice2 {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.searchBedsBaths2 {
+    display: flex;
+    padding-bottom: 2%;
+}
+.searchForm Button {
+    background-color: #B2C035;
+    color: #3B2313;
+    border: none;
+}
+
+.searchForm Button:hover {
+    background-color: #7E7D32;
 }
 
 @media screen and (max-width: 1021px) {

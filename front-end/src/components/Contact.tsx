@@ -18,13 +18,13 @@ const Contact = () => {
                 <div>
 
                 </div>
-                <div className="contactBottom location">
+                {/* <div className="contactBottom location">
                     <MdOutlineLocationOn /> 104 N. Market Street Wailuku, HI 96793
-                </div>
+                </div> */}
             </div>
         </div>
         <form className="contactForm">
-            {/* <div className="contactEmail"> */}
+            <div className="contactFirst3">
                 <label htmlFor="email">Email:</label>
                 <input type="email" id="email" name="email"></input>
             {/* </div> */}
@@ -35,7 +35,7 @@ const Contact = () => {
             {/* <div className="contactSubject"> */}
                 <label htmlFor="subject">Subject:</label>
                 <input type="text" id="subject" name="subject"></input>
-            {/* </div> */}
+            </div>
             {/* <div className="contactMessage"> */}
                 <label htmlFor="message">Message:</label>
                 <textarea id="message" name="message"/>
