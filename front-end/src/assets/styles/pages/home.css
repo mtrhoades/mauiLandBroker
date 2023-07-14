@@ -18,18 +18,17 @@
 }
 
 .imgDiv img {
-    width: 30%;
-    height: 20%;
+    width: 31.26%;
 }
 
 #img1 {
     transform: rotateY(180deg);
-    clip-path: inset(0px 0px 0px 150px);
+    clip-path: inset(0px 0px 0px 171px);
 }
 
 #img2 {
     transform: rotateX(360deg) rotateY(360deg);
-    clip-path: inset(0px 0px 0px 150px);
+    clip-path: inset(0px 0px 0px 171px);
 }
 
 

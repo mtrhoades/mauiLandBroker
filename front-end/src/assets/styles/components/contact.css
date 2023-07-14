@@ -20,6 +20,28 @@
     padding-right: 100px;
 }
 
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.contactForm input {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.contactForm textarea {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contactForm button {
+    border-radius: 10px;
+    background-color: #B2C035;
+}
+
 @media screen and (max-width: 1021px) {
     .contact {
         font-size: 1.5rem;

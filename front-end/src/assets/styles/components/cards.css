@@ -2,21 +2,24 @@
     width: 100%;
     text-align: center;
     padding: 20px;
-    /* padding-top: 11px; */
+    margin-top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .cardGroup {
     width: 70%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cardCustom {
+    width: 24%;
     align-items: center;
     padding: 20px;
     border: solid 7px #3B2313;
+    border-radius: 1em;
     text-align: center;
 }
 
@@ -24,18 +27,14 @@
     width: 25%;
 }
 
-.inbetween {
-    width: 1%;
-}
 
 @media screen and (max-width: 1021px) {
-    .cardContainer {
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-    }
     .cardGroup {
+        flex-direction: column;
+        width: 70%;
+    }
+    .cardCustom {
         width: 100%;
+        margin-bottom: 15px;
     }
 }
-

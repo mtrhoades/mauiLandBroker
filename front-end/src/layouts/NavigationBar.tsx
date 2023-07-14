@@ -6,13 +6,14 @@ import MLBlogo from '../assets/images/MLBlogo.png';
 import { SiFacebook } from 'react-icons/si';
 import { FiInstagram } from 'react-icons/fi';
 import { FiTwitter } from 'react-icons/fi';
+import { MdOutlinePhoneIphone } from 'react-icons/md';
 
 
 function NavigationBar() {
 
   return (
     <>
-      <Navbar style={{paddingLeft: '20px'}} expand="lg" className="navBar" fixed="top">
+      <Navbar expand="lg" className="navBar" fixed="top">
         <Container fluid>
           <Navbar.Brand href="/">
             <img alt="logo" src={MLBlogo}></img>
@@ -70,6 +71,7 @@ function NavigationBar() {
               </NavDropdown>
             </Nav>
             <div className='header'>
+              <MdOutlinePhoneIphone style={{fontSize: "2rem"}} />
               <h2>Call Us Today! (808)442-3036</h2>
               {/* <h5>A full service real estate sales and management company</h5> */}
             </div>
