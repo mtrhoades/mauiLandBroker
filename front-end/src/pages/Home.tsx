@@ -8,10 +8,10 @@ const Home = () => {
     <div>
       <Hero />
       <div className="wrapperForImgAndCardsAndContact">
-        <div className="imgDiv">
+        {/* <div className="imgDiv">
           <img id="img1" alt="leaves and flowers" src={leafBgImg}></img>
           <img id="img2" alt="leaves and flowers" src={leafBgImg}></img>
-        </div>
+        </div> */}
         <div className="cardAndContactContainer">
           <Cards />
           <Contact />

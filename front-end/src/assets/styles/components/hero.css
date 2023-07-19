@@ -1,10 +1,11 @@
 .hero {
     display: flex;
     background-color: #3B2313;
+    /* background-color: black; */
     padding-top: 186px;
     padding-right: 20px;
     padding-bottom: 20px;
-    margin-bottom: -4.5px;
+    margin-bottom: -3.9px;
 }
 
 .hero h3 {

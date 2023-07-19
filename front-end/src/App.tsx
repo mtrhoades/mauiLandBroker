@@ -19,7 +19,6 @@ function App() {
     <>
       <NavigationBar />
       <div>
-        <div className="routes">
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='agents' element={<Agents />} />
@@ -27,7 +26,6 @@ function App() {
             <Route path='listings' element={<Listings />} />
             <Route path='rentals' element={<Rentals />} />
           </Routes>
-        </div>
       </div>
       <Footer />
     </>
