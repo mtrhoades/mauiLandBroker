@@ -3,10 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import MLBlogo from '../assets/images/MLBlogo.png';
-import { SiFacebook } from 'react-icons/si';
-import { FiInstagram } from 'react-icons/fi';
-import { FiTwitter } from 'react-icons/fi';
-import { MdOutlinePhoneIphone } from 'react-icons/md';
 
 
 function NavigationBar() {
@@ -71,28 +67,7 @@ function NavigationBar() {
               </NavDropdown>
             </Nav>
             <div className='header'>
-              <MdOutlinePhoneIphone style={{fontSize: "2rem"}} />
-              <h2>Call Us Today! (808)442-3036</h2>
-              {/* <h5>A full service real estate sales and management company</h5> */}
-            </div>
-            <div className="socialIconsDiv">
-              <div>
-                <a href="https://www.facebook.com/MauiLandBroker/">
-                  <button className="socialIcons">
-                    <SiFacebook /> 
-                  </button>
-                </a>
-              </div>
-              <div>
-                <button className="socialIcons">
-                  <FiInstagram />
-                </button>
-              </div>
-              <div>
-                <button className="socialIcons">
-                  <FiTwitter />
-                </button>
-              </div>
+              <h5>A full service real estate sales and management company</h5>
             </div>
           </Navbar.Collapse>
         </Container>

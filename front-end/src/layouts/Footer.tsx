@@ -15,15 +15,14 @@ const Footer = () => {
   return (
     <div className='footer'>
       <Container>
-        <Row className='text-center text-md-start'>
-          <Col lg={4} md={6} sm={12} className='mb-3'>
+        <Row style={{display: 'flex', justifyContent: 'space-between'}} className='text-center text-md-start'>
+          <Col lg={5} md={6} sm={12} className='mb-3'>
             <ListGroup>
               <ListGroup.Item className='logo'>
-                <h4>Career Plan Today</h4>
+                <h4>Maui Land Broker & Property Management</h4>
               </ListGroup.Item>
               <ListGroup.Item>
-                We believe in your potential and are committed to helping you achieve your career and financial goals. Together, let's create a bright
-                future filled with wellness and success.
+                We here at MLB strive to keep the culture of Maui alive and well. Our roots run deep here and we want nothing more than to preserve the communities of Maui that have been here for a long time.
               </ListGroup.Item>
             </ListGroup>
           </Col>
@@ -46,7 +45,7 @@ const Footer = () => {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col lg={2} md={6} sm={12} className='mb-3'>
+          {/* <Col lg={2} md={6} sm={12} className='mb-3'>
             <ListGroup>
               <ListGroup.Item className='footer-link-heading'>
                 <p>Other Links</p>
@@ -64,9 +63,13 @@ const Footer = () => {
                 <a href='#'>Feedback</a>
               </ListGroup.Item>
             </ListGroup>
-          </Col>
-          <Col lg={4} md={6} sm={12} className='mb-3'>
-            <div style={{display: 'flex', justifyContent: 'space-evenly'}} className='socialIconsDiv'>
+          </Col> */}
+          <Col lg={4} md={6} sm={12} className='mb-3 iconsAndPhoneDiv'>
+            <div className='phoneSection'>
+              <h2>Call Us Today! (808)442-3036</h2>
+              <MdOutlinePhoneIphone />
+            </div>
+            <div className='socialIconsDiv'>
               <a href='#'>
                 <div className='social-icon'>
                   <SiFacebook />
