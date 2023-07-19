@@ -1,47 +1,33 @@
-import { MdOutlinePhoneIphone } from 'react-icons/md';
 import { MdOutlineEmail } from 'react-icons/md';
 import { MdOutlineLocationOn } from 'react-icons/md';
 
 const Contact = () => {
 
   return (
-    <div className="contact contactContainer">
-        <h2>Contact Us</h2>
-        <div className="contactBottom contactItems">
-            <div className="contactBottom firstContactItems">
-                {/* <div className="contactBottom phone">
-                    <MdOutlinePhoneIphone /> (808) 442-3063
-                </div> */}
-                <div className="contactBottom email">
-                    <MdOutlineEmail /> sales@mauilandbroker.com
-                </div>
-                <div>
-
-                </div>
-                {/* <div className="contactBottom location">
-                    <MdOutlineLocationOn /> 104 N. Market Street Wailuku, HI 96793
-                </div> */}
+    <div className="contactContainer">
+        <div className="contact">
+            <h2>Contact Us</h2>
+            <div className="email">
+                <MdOutlineEmail /> sales@mauilandbroker.com
             </div>
-        </div>
-        <form className="contactForm">
-            <div className="contactFirst3">
-                <label htmlFor="email">Email:</label>
-                <input type="email" id="email" name="email"></input>
-            {/* </div> */}
-            {/* <div className="contactName"> */}
+            <form className="contactForm">
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" name="name"></input>
-            {/* </div> */}
-            {/* <div className="contactSubject"> */}
+
                 <label htmlFor="subject">Subject:</label>
                 <input type="text" id="subject" name="subject"></input>
-            </div>
-            {/* <div className="contactMessage"> */}
+
                 <label htmlFor="message">Message:</label>
                 <textarea id="message" name="message"/>
-            {/* </div> */}
-            <button type="submit">Submit</button>
-        </form>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div className="location">
+            <h5><MdOutlineLocationOn /> 104 N. Market St. Wailuku, HI 96793</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.5656252104063!2d-156.50498312480417!3d20.889551380725173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7954d36a70467cfb%3A0xf60fb39b11c5c07a!2sMaui%20Land%20Broker%20And%20Property%20Management%20Inc!5e0!3m2!1sen!2sus!4v1689807358563!5m2!1sen!2sus" width="600" height="350" loading="lazy"></iframe>
+        </div>
+
     </div>
   )
 }
