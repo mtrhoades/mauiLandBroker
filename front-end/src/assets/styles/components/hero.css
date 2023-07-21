@@ -8,17 +8,13 @@
     margin-bottom: -3.9px;
 }
 
-.hero h3 {
-    color: #7E7D32;
-}
-
 .hero-left-section {
     width: 40%;
     text-align: center;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: #FAFAFA;
 }
@@ -46,13 +42,15 @@
     padding-bottom: 2%;
 }
 .searchForm Button {
-    background-color: #B2C035;
-    color: #3B2313;
+    font-size: 1.25rem;
+    color: #FAFAFA;
+    font-weight: bold;
     border: none;
+    width: 100%;
 }
 
 .searchForm Button:hover {
-    background-color: #7E7D32;
+    opacity: 50%;
 }
 
 @media screen and (max-width: 1021px) {

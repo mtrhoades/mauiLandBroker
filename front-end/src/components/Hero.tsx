@@ -6,17 +6,20 @@ import maluhiaPic2 from '../assets/images/maluhiaPic2.jpeg';
 import maluhiaPic3 from '../assets/images/maluhiaPic3.jpeg';
 import maluhiaPic4 from '../assets/images/maluhiaPic4.jpeg';
 import maluhiaPic5 from '../assets/images/maluhiaPic5.jpeg';
+import familyPic from '../assets/images/Family009.jpg';
 
 const Hero = () => {
   return (
     <div className='hero'>
       <div className='hero-left-section'>
         <h4>
-          Maui is our Paradise. Maui Land Broker and Property Management, Inc. can help you find the perfect property. Shirley and Joe have over 25 years experience in the construction and real estate market within the island of Maui. We will help you become part of this wonderful community.
+          Maui is our Paradise, with over 25 years experience in the construction and real estate market, we will help you become part of this wonderful community.
         </h4>
-        <h2>Find Your Home Today!</h2>
-        <h3>Quick Search</h3>
+        <div>
+          <img style={{width: "70%"}} alt="family portrait" src={familyPic}></img>
+        </div>
         <Form className="searchForm">
+        <h3>Find Your Ohana's Paradise Today!</h3>
           <div className="first3Form">
             <Form.Control
               type="text"
@@ -60,7 +63,7 @@ const Hero = () => {
           </div>
           <div className="searchPrice2">
             <Form.Select className="me-2">
-              <option value="No Min Price">No Min Price</option>
+              <option value="Min Price">Min Price</option>
               <option value="$50,000">$50,000</option>
               <option value="$100,000">$100,000</option>
               <option value="$150,000">$150,000</option>
@@ -86,7 +89,7 @@ const Hero = () => {
               <option value="$5,000,000">$5,000,000</option>
             </Form.Select>
             <Form.Select>
-              <option value="No Max Price">No Max Price</option>
+              <option value="Max Price">Max Price</option>
               <option value="$50,000">$50,000</option>
               <option value="$100,000">$100,000</option>
               <option value="$150,000">$150,000</option>
@@ -114,7 +117,7 @@ const Hero = () => {
           </div>
           <div className="searchBedsBaths2">
             <Form.Select className="me-2">
-              <option value="Number of Beds">Number of Beds</option>
+              <option value="Beds">Beds</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -122,7 +125,7 @@ const Hero = () => {
               <option value="5">5</option>
             </Form.Select>
             <Form.Select>
-              <option value="Number of Baths">Number of Baths</option>
+              <option value="Baths">Baths</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -130,7 +133,7 @@ const Hero = () => {
               <option value="5">5</option>
             </Form.Select>
           </div>
-          <Button>Search</Button>
+          <Button variant="success">Search</Button>
         </Form>
       </div>
       <div className='hero-right-section'>
