@@ -15,6 +15,7 @@
 }
 
 .cardCustom {
+    height: 180px;
     width: 24%;
     align-items: center;
     padding: 20px;
@@ -23,10 +24,24 @@
     text-align: center;
 }
 
+.cardCustom:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
 .cardCustom img {
     width: 25%;
 }
 
+.cardFront {
+    /* border: 1px solid blue; */
+    height: 10rem;
+}
+
+.cardBack {
+    /* border: 1px solid red; */
+    height: 10rem;
+}
 
 @media screen and (max-width: 1021px) {
     .cardGroup {

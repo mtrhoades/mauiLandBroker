@@ -13,6 +13,9 @@
   padding-right: 30px;
 }
 
+.social-icon:hover {
+  color: #B2C035;
+}
 
 .phoneSection {
   width: 500px;
@@ -46,7 +49,7 @@
 }
 
 .otherLinksCol a {
-  color: #7E7D32;
+  color: #FAFAFA;
   text-decoration: none;
 }
 

@@ -21,7 +21,7 @@ const Footer = () => {
             <p>We here at MLB strive to keep the culture of Maui alive and well. Our roots run deep here and we want nothing more than to preserve the communities of Maui that have been here for a long time.</p>
           </Col>
           <Col lg={3} md={6} sm={12} className='mb-3 otherLinksCol'>
-            <h5>Other Links</h5>
+            <h5 style={{color: '#7E7D32'}}>Other Links</h5>
             <div style={{height: '20px'}}></div>
             <ul>
               <li>

@@ -9,3 +9,5 @@ Images to attribute or purchase:
 Icons to provide links or purchase:
     urls: (the 4 icons in the Cards component)
         https://icons8.com/icons/set/real-estate
+
+        flaticon.com
