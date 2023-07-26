@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <Container>
-        <Row style={{display: 'flex', justifyContent: 'space-between', alignItems: 'baseline'}} className='text-center text-md-start'>
+        <Row style={{display: 'flex', justifyContent: 'flex-start', alignItems: 'baseline', marginLeft: '-500px'}} className='text-center text-md-start'>
           <Col lg={4} md={6} sm={12} className='mb-3'>
             <h4 style={{paddingBottom: '20px', color: '#7E7D32'}}>Maui Land Broker & Property Management</h4>
             <p>We here at MLB strive to keep the culture of Maui alive and well. Our roots run deep here and we want nothing more than to preserve the communities of Maui that have been here for a long time.</p>
@@ -62,6 +62,12 @@ const Footer = () => {
                   <MdOutlineEmail />
                 </div>
               </a>
+            </div>
+          </Col>
+          <Col lg={4} md={6} sm={12} className='mb-3'>
+            <div className="location">
+              <h5><MdOutlineLocationOn /> 104 N. Market St. Wailuku, HI 96793</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.5656252104063!2d-156.50498312480417!3d20.889551380725173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7954d36a70467cfb%3A0xf60fb39b11c5c07a!2sMaui%20Land%20Broker%20And%20Property%20Management%20Inc!5e0!3m2!1sen!2sus!4v1689807358563!5m2!1sen!2sus" width="400" height="300" loading="lazy"></iframe>
             </div>
           </Col>
         </Row>

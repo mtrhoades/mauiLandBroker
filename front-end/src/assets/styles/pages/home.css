@@ -22,7 +22,8 @@
 }
 
 #img1 {
-    transform: rotateY(180deg);
+    margin-left: -120px;
+    transform: rotate(23deg) scaleX(-1);
     clip-path: inset(0px 0px 0px 171px);
 }
 

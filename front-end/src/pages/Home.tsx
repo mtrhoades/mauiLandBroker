@@ -1,7 +1,7 @@
 import Hero from '../components/Hero';
 import Cards from '../components/Cards';
 import Contact from '../components/Contact';
-import leafBgImg from '../assets/images/leaves.png';
+import taroLeaves1 from '../assets/images/taroLeaves1.png';
 
 const Home = () => {
   return (
@@ -9,8 +9,8 @@ const Home = () => {
       <Hero />
       <div className="wrapperForImgAndCardsAndContact">
         {/* <div className="imgDiv">
-          <img id="img1" alt="leaves and flowers" src={leafBgImg}></img>
-          <img id="img2" alt="leaves and flowers" src={leafBgImg}></img>
+          <img id="img1" alt="leaves and flowers" src={taroLeaves1}></img>
+          <img id="img2" alt="leaves and flowers" src={taroLeaves1}></img>
         </div> */}
         <div className="cardAndContactContainer">
           <Cards />

@@ -1,4 +1,76 @@
-.cardContainer {
+.wrapper, .single-card {
+	height: 250px;
+	max-width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.wrapper {
+    padding-top: 40px;
+	perspective: 900px;
+    display: flex;
+    justify-content: center;
+}
+.single-card {
+	text-align: center;
+	transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+	transform-style: preserve-3d;
+}
+#singleCard1:hover {
+	transform: rotateY(180deg);
+}
+
+#singleCard2:hover {
+	transform: rotateY(180deg);
+}
+
+#singleCard3:hover {
+	transform: rotateY(180deg);
+}
+
+#singleCard4:hover {
+	transform: rotateY(180deg);
+}
+
+.front, .back {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.front {
+	cursor: pointer;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 50px;
+	background-size: cover;
+	background-position: center center;
+}
+.back {
+	transform: rotateY(180deg);
+	position: absolute;
+	border-radius: 50px;
+	height: 200px;
+	background: #fff;
+}
+
+.content h2 {
+	font-size: 35px;
+	margin: 0;
+	font-weight: 300;
+}
+.content h4 {
+	margin: 0;
+}
+
+
+
+
+
+
+/* .cardContainer {
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -25,7 +97,6 @@
 }
 
 .cardCustom:hover {
-    /* opacity: 50%; */
     cursor: pointer;
 }
 
@@ -34,12 +105,10 @@
 }
 
 .cardFront {
-    /* border: 1px solid blue; */
     height: 10rem;
 }
 
 .cardBack {
-    /* border: 1px solid red; */
     height: 10rem;
 }
 
@@ -52,4 +121,4 @@
         width: 100%;
         margin-bottom: 15px;
     }
-}
+} */

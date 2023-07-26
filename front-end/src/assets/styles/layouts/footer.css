@@ -17,6 +17,10 @@
   color: #B2C035;
 }
 
+.socialIconsDiv {
+  display: flex;
+}
+
 .phoneSection {
   width: 500px;
   font-size: 3.5rem;

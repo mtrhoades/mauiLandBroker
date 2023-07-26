@@ -1,5 +1,5 @@
 .navBar {
-    background-color: #FAFAFA;
+    background-color: white;
     padding-left: 20px;
 }
 
@@ -7,17 +7,6 @@
     text-align: center;
     padding-right: 100px;
     display: flex;
-}
-
-.socialIconsDiv {
-    display: flex;
-    flex-direction: row;
-}
-
-.socialIcons {
-    padding-right: 30px;
-    font-size: 2.25rem;
-    background-color: #FAFAFA;
 }
 
 
