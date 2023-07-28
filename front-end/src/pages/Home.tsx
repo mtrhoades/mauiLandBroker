@@ -1,6 +1,5 @@
 import Hero from '../components/Hero';
 import Cards from '../components/Cards';
-import Contact from '../components/Contact';
 import taroLeaves1 from '../assets/images/taroLeaves1.png';
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
         </div> */}
         <div className="cardAndContactContainer">
           <Cards />
-          <Contact />
         </div>
       </div>
     </div>

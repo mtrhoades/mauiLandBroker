@@ -2,9 +2,6 @@ import ReactGA from 'react-ga';
 import { Routes, Route } from 'react-router-dom';
 import NavigationBar from './layouts/NavigationBar';
 import Footer from './layouts/Footer';
-// import MLBlogo from './assets/images/MLBlogo.png';
-
-
 import Home from './pages/Home';
 import Listings from './pages/Listings';
 import Associations from './pages/Associations';

@@ -1,10 +1,24 @@
 .footer {
   width: 100%;
   background-color: #3B2313;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
   color: #FAFAFA;
   height: 100%;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.summaryDiv {
+  width: 20%;
+}
+
+.email {
+  font-size: 3.5rem;
+  display: flex;
+  align-items: baseline;
 }
 
 .social-icon {
@@ -22,21 +36,16 @@
 }
 
 .phoneSection {
-  width: 500px;
   font-size: 3.5rem;
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
 }
 
-.phoneSection h2 {
-  padding-right: 10px;
-}
 
 .iconsAndPhoneDiv {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  gap: 2rem;
 }
 
 .otherLinksCol {
@@ -59,4 +68,17 @@
 
 .otherLinksCol a:hover {
   color: #B2C035;
+}
+
+.contactForm input {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contactForm textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
 }
