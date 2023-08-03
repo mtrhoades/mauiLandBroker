@@ -15,7 +15,7 @@ const Hero = () => {
         <h4>
           Maui is our Paradise, with over 25 years experience in the construction and real estate market, we will help you become part of this wonderful community.
         </h4>
-        <div>
+        <div className="img1">
           <img style={{width: "70%"}} alt="family portrait" src={familyPic}></img>
         </div>
         <Form className="searchForm">
@@ -144,10 +144,6 @@ const Hero = () => {
               src={maluhiaPic}
               alt="First slide"
             />
-            {/* <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption> */}
           </Carousel.Item>
 
           <Carousel.Item>
@@ -157,10 +153,6 @@ const Hero = () => {
               alt="Second slide"
             />
 
-            {/* <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption> */}
           </Carousel.Item>
 
           <Carousel.Item>
@@ -170,12 +162,6 @@ const Hero = () => {
               alt="Third slide"
             />
 
-            {/* <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption> */}
           </Carousel.Item>
 
           <Carousel.Item>
@@ -185,12 +171,6 @@ const Hero = () => {
               alt="Third slide"
             />
 
-            {/* <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption> */}
           </Carousel.Item>
 
           <Carousel.Item>
@@ -200,12 +180,6 @@ const Hero = () => {
               alt="Third slide"
             />
 
-            {/* <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption> */}
           </Carousel.Item>
         </Carousel>
       </div>
