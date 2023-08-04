@@ -9,7 +9,7 @@ function NavigationBar() {
 
   return (
     <>
-      <Navbar expand="lg" className="navBar bg-body-tertiary" fixed="top">
+      <Navbar expand="lg" className="navBar" fixed="top">
         <Container>
           <Navbar.Brand href="/">
             <img alt="logo" src={MLBlogo}></img>

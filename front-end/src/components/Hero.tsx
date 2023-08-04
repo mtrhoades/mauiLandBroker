@@ -11,15 +11,56 @@ import familyPic from '../assets/images/Family009.jpg';
 const Hero = () => {
   return (
     <div className='hero'>
-      <div className='hero-left-section'>
-        <h4>
-          Maui is our Paradise, with over 25 years experience in the construction and real estate market, we will help you become part of this wonderful community.
-        </h4>
-        <div className="img1">
-          <img style={{width: "70%"}} alt="family portrait" src={familyPic}></img>
-        </div>
+      <div className='hero-top-section'>
+        <Carousel fade >
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic}
+              alt="First slide"
+            />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic2}
+              alt="Second slide"
+            />
+
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic3}
+              alt="Third slide"
+            />
+
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic4}
+              alt="Third slide"
+            />
+
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic5}
+              alt="Third slide"
+            />
+
+          </Carousel.Item>
+        </Carousel>
+      </div>
+      <div className='hero-bottom-section'>
         <Form className="searchForm">
-        <h3>Find Your Ohana's Paradise Today!</h3>
+        <h5>Find Your Ohana's Paradise Today!</h5>
           <div className="first3Form">
             <Form.Control
               type="text"
@@ -135,53 +176,6 @@ const Hero = () => {
           </div>
           <Button variant="success">Search</Button>
         </Form>
-      </div>
-      <div className='hero-right-section'>
-        <Carousel fade >
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic}
-              alt="First slide"
-            />
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic2}
-              alt="Second slide"
-            />
-
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic3}
-              alt="Third slide"
-            />
-
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic4}
-              alt="Third slide"
-            />
-
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic5}
-              alt="Third slide"
-            />
-
-          </Carousel.Item>
-        </Carousel>
       </div>
 
     </div>
