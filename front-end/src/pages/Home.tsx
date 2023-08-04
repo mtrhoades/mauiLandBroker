@@ -4,7 +4,7 @@ import taroLeaves1 from '../assets/images/taroLeaves1.png';
 
 const Home = () => {
   return (
-    <div>
+    <div className="homeContainer">
       <Hero />
       <Cards />
     </div>

@@ -59,8 +59,8 @@ const Hero = () => {
         </Carousel>
       </div>
       <div className='hero-bottom-section'>
-        <Form className="searchForm">
         <h5>Find Your Ohana's Paradise Today!</h5>
+        <Form className="searchForm">
           <div className="first3Form">
             <Form.Control
               type="text"

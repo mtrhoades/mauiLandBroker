@@ -9,16 +9,15 @@ function NavigationBar() {
 
   return (
     <>
-      <Navbar expand="lg" className="navBar" fixed="top">
+      <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
         <Container>
           <Navbar.Brand href="/">
-            <img alt="logo" src={MLBlogo}></img>
+            <img className="navImg" alt="logo" src={MLBlogo}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Collapse>
             <Nav
-              className="ms-auto me-auto my-2 my-lg-0 fs-4"
-              // navbarScroll
+              className="ms-auto me-6 my-2 my-lg-0 fs-4"
             >
               <Nav.Link href="/agents">Agents</Nav.Link>
 

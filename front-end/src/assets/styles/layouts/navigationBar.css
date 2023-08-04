@@ -1,21 +1,16 @@
-@media screen and (max-width: 1021px) {
-    .header h2 {
-        font-size: 1rem;
-    }
-    .header h5 {
-        font-size: 0.75rem;
-    }
+.navbar {
+    padding: 20px 0;
 }
 
-.navBar {
-    background-color: #FFFF;
-}
+.bg-body-tertiary {
+    background-color: #FFFF !important;
+  }
 
-.header {
+.navbar-collapse {
+    display: inline-block;
     text-align: center;
-    padding-right: 100px;
-    display: flex;
 }
+
 
 
 
