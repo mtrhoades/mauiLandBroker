@@ -38,6 +38,11 @@
   font-size: 3.5rem;
   display: flex;
   align-items: baseline;
+  cursor: pointer;
+}
+
+.email:hover {
+  color: #B2C035;
 }
 
 .social-icon {
@@ -58,6 +63,11 @@
   font-size: 3.5rem;
   display: flex;
   align-items: baseline;
+  cursor: pointer;
+}
+
+.phoneSection:hover {
+  color: #B2C035;
 }
 
 

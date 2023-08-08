@@ -7,6 +7,7 @@ import Listings from './pages/Listings';
 import Associations from './pages/Associations';
 import Agents from './pages/Agents';
 import Rentals from './pages/Rentals';
+import About from './pages/About';
 
 function App() {
   ReactGA.initialize("UA-000000-01");
@@ -18,6 +19,7 @@ function App() {
       <div>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='about' element={<About />} />
             <Route path='agents' element={<Agents />} />
             <Route path='associations' element={<Associations />} />
             <Route path='listings' element={<Listings />} />

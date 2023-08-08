@@ -9,11 +9,12 @@
 	}
 }
 
-.card {
+.cardIcon {
 	border: none;
 	margin-left: 4.75rem;
 	margin-right: 4.75rem;
 	text-align: center;
+	cursor: pointer;
 
 	@media (max-width: 1400px) {
 		margin-left: 2rem;
@@ -25,14 +26,14 @@
 	}
 }
 
-.card h5 {
+.cardIcon:hover {
+	opacity: 50%;
+}
+
+.cardIcon h5 {
 	color: #3B2313;
 	padding-top: 10px;
 }
-
-/* .card:hover {
-	animation: bounce 1.5s ease-in-out;
-} */
 
 .icons {
 	font-size: 4.5rem;
@@ -41,7 +42,7 @@
 
 .icons:hover {
 	animation: bounce 1.5s ease-in-out;
-	opacity: 70%;
+	/* opacity: 50%; */
 	color: #B2C035;
 }
 

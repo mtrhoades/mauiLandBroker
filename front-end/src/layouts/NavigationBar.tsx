@@ -19,9 +19,14 @@ function NavigationBar() {
             <Nav
               className="ms-auto me-6 my-2 my-lg-0 fs-4"
             >
-              <Nav.Link href="/agents">Agents</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
 
-              <NavDropdown title="Listings" id="navbarScrollingDropdown">
+              <NavDropdown title="About">
+                <NavDropdown.Item href="/agents">Agents</NavDropdown.Item>
+                <NavDropdown.Item href="/about">About MLB</NavDropdown.Item>
+              </NavDropdown>
+
+              {/* <NavDropdown title="Listings" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="/listings">Listing # 1</NavDropdown.Item>
                 <NavDropdown.Item href="/listings">Listing # 2</NavDropdown.Item>
                 <NavDropdown.Item href="/listings">Listing # 3</NavDropdown.Item>
@@ -33,7 +38,7 @@ function NavigationBar() {
                 <NavDropdown.Item href="/listings">
                   Something else here?
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
 
               <NavDropdown title="Rentals" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="/rentals">Rental Information</NavDropdown.Item>
