@@ -11,3 +11,6 @@ Icons to provide links or purchase:
         https://icons8.com/icons/set/real-estate
 
         flaticon.com
+
+
+        fontawesome icons

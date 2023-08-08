@@ -1,22 +1,10 @@
 /* Base Styles */
-html {
-  box-sizing: border-box;
-}
-
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    /* background-image: url("../images/hawaiianFlowersImg.png")  */
   }
-
-
 
 /* Base */
 @import "base/global.css";

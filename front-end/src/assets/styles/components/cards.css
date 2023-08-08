@@ -1,74 +1,61 @@
 .wrapper {
-	padding-top: 40px;
-	perspective: 900px;
+	padding: 2rem;
 	display: flex;
 	justify-content: center;
-}
+	align-items: center;
 
-.wrapper, .single-card {
-	width: 70%;
-	height: 100%;
-	margin: 0 auto;
-	position: relative;
+	@media (max-width: 820px) {
+		flex-wrap: wrap;
 	}
+}
 
-.single-card {
+.card {
+	border: none;
+	margin-left: 4.75rem;
+	margin-right: 4.75rem;
 	text-align: center;
-	transition: all 1s cubic-bezier(0.5, -0.5, 0.1, 1);
-	transform-style: preserve-3d;
-}
-#singleCard1:hover {
-	transform: rotateY(180deg);
-}
 
-#singleCard2:hover {
-	transform: rotateY(180deg);
-}
-
-#singleCard3:hover {
-	transform: rotateY(180deg);
+	@media (max-width: 1400px) {
+		margin-left: 2rem;
+		margin-right: 2rem;
+		}
+	@media (max-width: 820px) {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
 }
 
-#singleCard4:hover {
-	transform: rotateY(180deg);
+.card h5 {
+	color: #3B2313;
+	padding-top: 10px;
 }
 
-.front, .back {
-	/* width: 250px; */
-	position: relative;
-	top: 0;
-	left: 0;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+/* .card:hover {
+	animation: bounce 1.5s ease-in-out;
+} */
 
-}
-.front {
-	cursor: pointer;
-	height: 100%;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	border-radius: 50px;
-	background-size: cover;
-	background-position: center center;
-}
-.back {
-	transform: rotateY(180deg);
-	position: absolute;
-	border-radius: 50px;
-	height: 200px;
-	background: #fff;
+.icons {
+	font-size: 4.5rem;
+	color: #3B2313;
 }
 
-.content h2 {
-	font-size: 35px;
-	margin: 0;
-	font-weight: 300;
-}
-.content h4 {
-	margin: 0;
+.icons:hover {
+	animation: bounce 1.5s ease-in-out;
+	opacity: 70%;
+	color: #B2C035;
 }
 
-
-
-
-
+@keyframes bounce {
+	0%,
+	20%,
+	60%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px)
+	}
+	80% {
+		transform: translateY(-20px)
+	}
+}
