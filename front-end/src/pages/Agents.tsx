@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
+import josephPhoto from '../assets/images/Joseph.jpg';
+import sashaPhoto from '../assets/images/Sasha.jpg';
+import hawanaPhoto from '../assets/images/Hawana.jpg';
+import arielPhoto from '../assets/images/Ariel.jpg';
 
 const About = () => {
 
@@ -26,7 +30,9 @@ const flipCard4 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped1}>
         <div className="card card-front" onClick={flipCard1}>
-          <h3>Front</h3>
+          <img src={josephPhoto}></img>
+          <h3>Joseph Blackburn</h3>
+          <h5>Broker/Agent</h5>
         </div>
         <div className="card card-back" onClick={flipCard1}>
           <h3>Back</h3>
@@ -35,7 +41,9 @@ const flipCard4 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped2}>
         <div className="card card-front" onClick={flipCard2}>
-          <h3>Front</h3>
+          <img src={sashaPhoto}></img>
+          <h3>Sasha Haukoloa</h3>
+          <h5>Agent</h5>
         </div>
         <div className="card card-back" onClick={flipCard2}>
           <h3>Back</h3>
@@ -44,7 +52,9 @@ const flipCard4 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped3}>
         <div className="card card-front" onClick={flipCard3}>
-          <h3>Front</h3>
+          <img src={hawanaPhoto}></img>
+          <h3>Hawana Blackburn</h3>
+          <h5>Agent</h5>
         </div>
         <div className="card card-back" onClick={flipCard3}>
           <h3>Back</h3>
@@ -53,13 +63,15 @@ const flipCard4 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped4}>
         <div className="card card-front" onClick={flipCard4}>
-          <h3>Front</h3>
+          <img style={{width: '367px'}} src={arielPhoto}></img>
+          <h3>Ariel Blackburn-Rhoades</h3>
+          <h5>Agent</h5>
         </div>
         <div className="card card-back" onClick={flipCard4}>
           <h3>Back</h3>
         </div>
       </ReactCardFlip>
-      
+
     </div>
   )
 }
