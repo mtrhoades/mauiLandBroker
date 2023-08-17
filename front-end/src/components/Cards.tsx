@@ -12,25 +12,33 @@ return (
 
     <div className="wrapper">
         
-        <div className="cardIcon">
-            <FontAwesomeIcon className='icons' icon={faSignHanging}></FontAwesomeIcon>
-            <h5>Buy/Sell With Us</h5>
-        </div>
+        <a href="/buySell">
+            <div className="cardIcon">
+                <FontAwesomeIcon className='icons' icon={faSignHanging}></FontAwesomeIcon>
+                <h5>Buy/Sell With Us</h5>
+            </div>
+        </a>
 
-        <div className="cardIcon">
-            <FontAwesomeIcon className='icons' icon={faKey}></FontAwesomeIcon>
-            <h5>Rent With Us</h5>
-        </div>
+        <a href="/rentwithus">
+            <div className="cardIcon">
+                <FontAwesomeIcon className='icons' icon={faKey}></FontAwesomeIcon>
+                <h5>Rent With Us</h5>
+            </div>
+        </a>
 
-        <div className="cardIcon">
-            <FontAwesomeIcon className='icons' icon={faCalculator}></FontAwesomeIcon>
-            <h5>Mortgage Calculator</h5>
-        </div>
+        <a href="/mortgagecalculator">
+            <div className="cardIcon">
+                <FontAwesomeIcon className='icons' icon={faCalculator}></FontAwesomeIcon>
+                <h5>Mortgage Calculator</h5>
+            </div>
+        </a>
 
-        <div className="cardIcon">
-            <FontAwesomeIcon className='icons' icon={faHouse}></FontAwesomeIcon>
-            <h5>HOA Information & Documents</h5>
-        </div>
+        <a href="/hoainfo">
+            <div className="cardIcon">
+                <FontAwesomeIcon className='icons' icon={faHouse}></FontAwesomeIcon>
+                <h5>HOA Information & Documents</h5>
+            </div>
+        </a>
 
         <div className="cardIcon">
             <FontAwesomeIcon className='icons' icon={faHouseUser}></FontAwesomeIcon>

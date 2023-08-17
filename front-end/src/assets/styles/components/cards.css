@@ -15,11 +15,11 @@
 	margin-right: 4.75rem;
 	text-align: center;
 	cursor: pointer;
-
+	
 	@media (max-width: 1400px) {
 		margin-left: 2rem;
 		margin-right: 2rem;
-		}
+	}
 	@media (max-width: 820px) {
 		margin-top: 1rem;
 		margin-bottom: 1rem;
@@ -41,7 +41,7 @@
 }
 
 .icons:hover {
-	animation: bounce 1.5s ease-in-out;
+	animation: bounce 1.3s ease-out;
 	/* opacity: 50%; */
 	color: #B2C035;
 }

@@ -1,8 +1,9 @@
-import React from 'react'
 
 const Rentals = () => {
   return (
-    <div>Rentals</div>
+    <div className="rentalsContainer">
+      Rentals
+    </div>
   )
 }
 

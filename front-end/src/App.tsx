@@ -8,6 +8,11 @@ import Associations from './pages/Associations';
 import Agents from './pages/Agents';
 import Rentals from './pages/Rentals';
 import About from './pages/About';
+import BuySell from './pages/BuySell';
+import RentWithUs from './pages/RentWithUs';
+import MortgageCalculator from './pages/MortgageCalculator';
+import HoaInfo from './pages/HoaInfo';
+import SearchResults from './pages/SearchResults';
 
 function App() {
   ReactGA.initialize("UA-000000-01");
@@ -16,7 +21,6 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <div>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='about' element={<About />} />
@@ -24,9 +28,15 @@ function App() {
             <Route path='associations' element={<Associations />} />
             <Route path='listings' element={<Listings />} />
             <Route path='rentals' element={<Rentals />} />
+            <Route path='buysell' element={<BuySell />} />
+            <Route path='rentwithus' element={<RentWithUs />} />
+            <Route path='mortgagecalculator' element={<MortgageCalculator />} />
+            <Route path='hoainfo' element={<HoaInfo />} />
+            <Route path='searchresults' element={<SearchResults />} />
           </Routes>
-      </div>
+
       <Footer />
+
     </>
   );
 }

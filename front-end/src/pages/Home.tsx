@@ -6,8 +6,10 @@ import lilikoi from '../assets/images/lilikoi1-removebg-preview.png';
 const Home = () => {
   return (
     <div className="homeContainer">
+
       <Hero />
       <Cards />
+
     </div>
   )
 }

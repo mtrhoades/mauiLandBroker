@@ -6,6 +6,11 @@
     /* background-image: url("../images/hawaiianFlowersImg.png")  */
   }
 
+a {
+  text-decoration: none;
+}
+  
+
 /* Base */
 @import "base/global.css";
 @import "base/typography.css";
@@ -21,4 +26,12 @@
 /* Pages */
 @import "pages/home.css";
 @import "pages/agents.css";
+@import "pages/about.css";
+@import "pages/buysell.css";
+@import "pages/rentals.css";
+@import "pages/rentwithus.css";
+@import "pages/mortgagecalculator.css";
+@import "pages/hoainfo.css";
+@import "pages/searchresults.css";
+
 
