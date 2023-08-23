@@ -1,3 +1,8 @@
 .buySellContainer {
-    margin-top: 12rem;
+    margin: 12rem 12rem 7rem 12rem;
+    display: flex;
+}
+
+.buySellSubContainer {
+    width: 70%;
 }

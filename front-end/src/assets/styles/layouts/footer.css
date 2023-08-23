@@ -133,7 +133,7 @@
 }
 
 .copyright {
-  padding-left: 17.5rem;
+  padding-left: 14.5rem;
 
   @media (max-width: 998px) {
     padding-left: 0;

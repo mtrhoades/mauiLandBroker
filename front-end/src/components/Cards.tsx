@@ -37,7 +37,7 @@ return (
         <a href="/hoainfo">
             <div className="cardIcon">
                 <FontAwesomeIcon className='icons' icon={faHouse}></FontAwesomeIcon>
-                <h5>HOA Information & Documents</h5>
+                <h5>HOA Information</h5>
             </div>
         </a>
 
