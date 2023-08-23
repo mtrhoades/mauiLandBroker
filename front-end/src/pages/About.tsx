@@ -13,8 +13,8 @@ const About = () => {
       </div>
 
       <div className="about2ndSection">
-      <img src={familyImg2}></img>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quasi ex repudiandae, iure, nemo quos distinctio neque accusamus mollitia id explicabo recusandae cupiditate a odio ab earum quidem, quia perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quas quidem itaque sed harum repellat error, fugit exercitationem eius, non tenetur ipsam recusandae vel atque nihil mollitia neque et totam?</p>
+        <img src={familyImg2}></img>
       </div>
     </div>
   )

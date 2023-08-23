@@ -17,7 +17,8 @@
     width: 330px;
     height: 400px;
     text-align: center;
-    margin: 0px auto; 
+    cursor: pointer;
+    margin: 0px auto;
      /* ^^^^^^^^^ horizontally centers elements in container */
     
     @media (max-width: 2100px) {

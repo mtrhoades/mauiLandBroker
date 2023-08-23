@@ -19,6 +19,13 @@
     align-items: center;
 }
 
+.about2ndSection {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
 .aboutContainer img {
     width: 50%;
     padding-right: 20px;

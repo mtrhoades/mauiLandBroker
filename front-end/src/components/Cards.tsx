@@ -4,6 +4,7 @@ import { faKey } from '@fortawesome/free-solid-svg-icons';
 import { faCalculator } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
+import { faHouseChimneyWindow } from '@fortawesome/free-solid-svg-icons';
 
 const Cards = () => {
 
@@ -40,11 +41,12 @@ return (
             </div>
         </a>
 
-        <div className="cardIcon">
-            <FontAwesomeIcon className='icons' icon={faHouseUser}></FontAwesomeIcon>
-            <h5>Something Else</h5>
-        </div>
-
+        <a href="https://www.panabodehomes.com/">
+            <div className="cardIcon">
+                <FontAwesomeIcon className='icons' icon={faHouseChimneyWindow}></FontAwesomeIcon>
+                <h5>Custom Cedar Homes</h5>
+            </div>
+        </a>
     </div>
   )
 }

@@ -26,28 +26,14 @@ function NavigationBar() {
                 <NavDropdown.Item href="/about">About MLB</NavDropdown.Item>
               </NavDropdown>
 
-              {/* <NavDropdown title="Listings" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/listings">Listing # 1</NavDropdown.Item>
-                <NavDropdown.Item href="/listings">Listing # 2</NavDropdown.Item>
-                <NavDropdown.Item href="/listings">Listing # 3</NavDropdown.Item>
-                <NavDropdown.Item href="/listings">Listing # 4</NavDropdown.Item>
-                <NavDropdown.Item href="/listings">Listing # 5</NavDropdown.Item>
-                <NavDropdown.Item href="/listings">Listing # 6</NavDropdown.Item>
-                <NavDropdown.Item href="/listings">Listing # 7</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="/listings">
-                  Something else here?
-                </NavDropdown.Item>
-              </NavDropdown> */}
-
-              <NavDropdown title="Rentals" id="navbarScrollingDropdown">
+              {/* <NavDropdown title="Rentals" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="/rentals">Rental Information</NavDropdown.Item>
                 <NavDropdown.Item href="/rentals">Available Rentals</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="/rentals">
                   Something else here?
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
 
               <NavDropdown title="Associations" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="/associations">Hale Kaiola</NavDropdown.Item>
