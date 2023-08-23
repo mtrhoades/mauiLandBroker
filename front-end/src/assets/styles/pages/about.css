@@ -1,3 +1,25 @@
 .aboutContainer {
-    margin-top: 12rem;
+    margin: 12rem 12rem 8rem 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutContainer h4 {
+    color: #7E7D32;
+    padding-bottom: 20px;
+}
+
+
+.about1stSection {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.aboutContainer img {
+    width: 50%;
+    padding-right: 20px;
 }
