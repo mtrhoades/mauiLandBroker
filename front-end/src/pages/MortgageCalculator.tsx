@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Form, Col, Row } from 'react-bootstrap';
 import Chart from 'react-apexcharts';
 
@@ -10,9 +10,9 @@ const MortgageCalculator = () => {
   const [loanTime, setLoanTime] = useState(30);
   const [interestRate, setInterestRate] = useState(7);
 
-  const [propertyTax, setPropertyTax] = useState(1300);
-  const [homeInsurance, setHomeInsurance] = useState(1000);
-  const [hoaDues, setHoaDues] = useState(600);
+  const [propertyTax, setPropertyTax] = useState((houseCost/1000)*5.85);
+  const [homeInsurance, setHomeInsurance] = useState((houseCost*0.0025));
+  const [hoaDues, setHoaDues] = useState(2400);
 
   const calculateMortgagePayment = () => {
     let mortgagePaymentBalance = 0;
@@ -23,16 +23,17 @@ const MortgageCalculator = () => {
 
     mortgagePaymentBalance = (principal * mr * Math.pow(1 + mr, mlp)) / (Math.pow(1 + mr, mlp) - 1);
 
-    let totalMonthlyPayment = mortgagePaymentBalance + propertyTax + homeInsurance + hoaDues
+    let totalMonthlyPayment = mortgagePaymentBalance + (propertyTax/12) + (homeInsurance/12) + (hoaDues/12)
     
     return { mortgagePaymentBalance: mortgagePaymentBalance, totalMonthlyPayment: totalMonthlyPayment }
   }
+
 
 // graph
 const options = {
   labels: ['Monthly Mortgage Payment', 'Property Tax', 'Home Insurance', 'HOA Dues']
 }
-const series = [calculateMortgagePayment().mortgagePaymentBalance, propertyTax, homeInsurance, hoaDues]
+const series = [calculateMortgagePayment().mortgagePaymentBalance, (propertyTax/12), (homeInsurance/12), (hoaDues/12)]
 
 
 
@@ -82,15 +83,20 @@ const series = [calculateMortgagePayment().mortgagePaymentBalance, propertyTax, 
         </Form>
 
         <div className="calcChart">
-          <Chart options={options} series={series} type="donut" width={580} />
+          <Chart options={options} series={series} type="donut" width={680} />
         </div>
       </div>
       <div className="resultsDiv">
         <h3>Your Monthly Mortgage Payment is:</h3>
         <span className="mortgageResult">${calculateMortgagePayment().mortgagePaymentBalance.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
-        <h4>Your Total Monthly Payment is:</h4>
+        <h4>Your TOTAL Monthly Payment is:</h4>
         <span className="totalResult">${calculateMortgagePayment().totalMonthlyPayment.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
       </div>
+
+      <div>
+        Add Disclaimer here
+      </div>
+
     </div>
   )
 }

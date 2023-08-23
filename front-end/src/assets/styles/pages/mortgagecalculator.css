@@ -34,9 +34,15 @@
 
 .mortgageResult {
     font-size: 5rem;
+    color: cornflowerblue;
 }
 
 .totalResult {
     font-size: 2rem;
+    color: green;
 }
 
+.lowerFormMC {
+    display: flex;
+    gap: 30px;
+}
