@@ -26,15 +26,6 @@ function NavigationBar() {
                 <NavDropdown.Item href="/about">About MLB</NavDropdown.Item>
               </NavDropdown>
 
-              {/* <NavDropdown title="Rentals" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/rentals">Rental Information</NavDropdown.Item>
-                <NavDropdown.Item href="/rentals">Available Rentals</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="/rentals">
-                  Something else here?
-                </NavDropdown.Item>
-              </NavDropdown> */}
-
               <NavDropdown title="Associations" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="/associations">Hale Kaiola</NavDropdown.Item>
                 <NavDropdown.Item href="/associations">Koa Kai</NavDropdown.Item>

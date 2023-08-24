@@ -1,8 +1,32 @@
 .buySellContainer {
-    margin: 12rem 12rem 7rem 12rem;
+    margin: 12rem 0rem 7rem 0rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.buySellSubContainer {
-    width: 70%;
+.buySellContainer h3 {
+    color: #7E7D32;
+    padding-top: 40px;
+}
+
+.buySellContainer h2 {
+    padding-top: 20px;
+}
+
+.buySellList {
+    display: flex;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+.buySellList li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.buySellIcon {
+    padding-right: 20px;
+    font-size: 3rem;
 }

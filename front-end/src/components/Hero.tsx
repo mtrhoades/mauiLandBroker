@@ -10,6 +10,8 @@ import maluhiaPic5 from '../assets/images/maluhiaPic5.jpeg';
 import familyPic from '../assets/images/Family009.jpg';
 import taroImg from '../assets/images/taroLeavesCorner.jpg';
 
+import Cards from '../components/Cards';
+
 
 const Hero = () => {
 
@@ -62,6 +64,9 @@ const Hero = () => {
           </Carousel.Item>
         </Carousel>
       </div>
+
+      <Cards />
+      
       <div className='hero-bottom-section'>
         <h5>Find Your Ohana's Paradise Today!</h5>
         <Form className="searchForm">

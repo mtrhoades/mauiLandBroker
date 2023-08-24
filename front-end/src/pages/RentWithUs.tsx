@@ -2,12 +2,16 @@
 const RentWithUs = () => {
   return (
     <div className="rentWithUsContainer">
-      RentWithUs
-      ALL RENTAL INFO. HERE!
+     <h3>Rentals Information</h3>
 
-      things for renting through us
-      as a renter and owner
-      
+     <h5>Why Rent with Us?</h5>
+
+     <h5>Available Rentals</h5>
+
+     <h5>As an Owner What Should I Know?</h5>
+
+     <h5>As a Tenant What Should I Know?</h5>
+  
         
     </div>
   )
