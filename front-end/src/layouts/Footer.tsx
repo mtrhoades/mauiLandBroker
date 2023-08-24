@@ -4,11 +4,9 @@ import { MdOutlineLocationOn } from 'react-icons/md';
 import { SiFacebook } from 'react-icons/si';
 import { FiInstagram } from 'react-icons/fi';
 import { FiTwitter } from 'react-icons/fi';
-
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-
 
 const Footer = () => {
 

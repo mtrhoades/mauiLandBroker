@@ -1,17 +1,12 @@
-import { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Form from 'react-bootstrap/Form';
+import Cards from '../components/Cards';
 import Button from 'react-bootstrap/Button';
 import maluhiaPic from '../assets/images/maluhiaPic.jpeg';
 import maluhiaPic2 from '../assets/images/maluhiaPic2.jpeg';
 import maluhiaPic3 from '../assets/images/maluhiaPic3.jpeg';
 import maluhiaPic4 from '../assets/images/maluhiaPic4.jpeg';
 import maluhiaPic5 from '../assets/images/maluhiaPic5.jpeg';
-import familyPic from '../assets/images/Family009.jpg';
-import taroImg from '../assets/images/taroLeavesCorner.jpg';
-
-import Cards from '../components/Cards';
-
 
 const Hero = () => {
 

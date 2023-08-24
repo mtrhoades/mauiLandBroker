@@ -2,6 +2,7 @@ import ReactGA from 'react-ga';
 import { Routes, Route } from 'react-router-dom';
 import NavigationBar from './layouts/NavigationBar';
 import Footer from './layouts/Footer';
+import NewFooter from './layouts/NewFooter';
 import Home from './pages/Home';
 import Listings from './pages/Listings';
 import Associations from './pages/Associations';
@@ -35,7 +36,7 @@ function App() {
             <Route path='searchresults' element={<SearchResults />} />
           </Routes>
 
-      <Footer />
+      <NewFooter />
 
     </>
   );
