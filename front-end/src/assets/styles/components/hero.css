@@ -1,4 +1,4 @@
-.hero {
+.hero .heroWrapper {
     padding-top: 186px;
     display: flex;
     flex-direction: column;
@@ -41,6 +41,8 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
 
     @media (max-width: 820px) {
         width: 100% !important;
@@ -77,3 +79,27 @@
     opacity: 50%;
 }
 
+.heroWrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.taroImg {
+    width: 600px;
+    position: absolute;
+    z-index: 0;
+    margin-left: 115rem;
+    margin-top: 51rem;
+    clip-path: inset(0 0 0 20px)
+}
+
+.taroImg2 {
+    width: 600px;
+    position: absolute;
+    z-index: 0;
+    margin-left: 102rem;
+    margin-top: 51rem;
+    margin-right: 215rem;
+    transform: scaleX(-1);
+    clip-path: inset(0 0 0 20px)
+}
