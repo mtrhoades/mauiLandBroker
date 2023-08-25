@@ -13,10 +13,54 @@ const Hero = () => {
   return (
     <div className='hero'>
 
+      <div className='hero-top-section'>
+        <Carousel fade >
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic2}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic3}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic4}
+              alt="Fourth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={maluhiaPic5}
+              alt="Fifth slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+      </div>
+
+      <div className="heroHeaders">
+        <h1>A Full-Service Real Estate Sales & Management Company</h1>
+        <h2>Find Your Ohana's Paradise Today!</h2>
+      </div>
+
       <div className='hero-bottom-section'>
-        <h2>A Full-Service Real Estate Sales & Management Company</h2>
-        <h3>Find Your Ohana's Paradise Today!</h3>
         <Form className="searchForm">
+          <div style={{display: 'flex'}}>
             <Form.Control
               type="text"
               placeholder="MLS Number"
@@ -82,6 +126,8 @@ const Hero = () => {
               <option value="$4,000,000">$4,000,000</option>
               <option value="$5,000,000">$5,000,000</option>
             </Form.Select>
+          </div>
+          <div style={{display: 'flex', width: '50%'}}>
             <Form.Select className="me-2">
               <option value="Max Price">Max Price</option>
               <option value="$50,000">$50,000</option>
@@ -124,48 +170,9 @@ const Hero = () => {
               <option value="4">4</option>
               <option value="5">5</option>
             </Form.Select>
-          <Button href="/searchresults" variant="success">Search</Button>
+            <Button href="/searchresults" variant="success">Search</Button>
+          </div>
         </Form>
-      </div>
-
-      <div className='hero-top-section'>
-        <Carousel fade >
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic2}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic3}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic4}
-              alt="Fourth slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={maluhiaPic5}
-              alt="Fifth slide"
-            />
-          </Carousel.Item>
-        </Carousel>
       </div>
 
       <Cards />
