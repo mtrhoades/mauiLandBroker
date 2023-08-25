@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Listings from './pages/Listings';
 import Associations from './pages/Associations';
 import Agents from './pages/Agents';
-import Rentals from './pages/Rentals';
+import Specials from './pages/Specials';
 import About from './pages/About';
 import BuySell from './pages/BuySell';
 import RentWithUs from './pages/RentWithUs';
@@ -27,14 +27,13 @@ function App() {
             <Route path='agents' element={<Agents />} />
             <Route path='associations' element={<Associations />} />
             <Route path='listings' element={<Listings />} />
-            <Route path='rentals' element={<Rentals />} />
+            <Route path='specials' element={<Specials />} />
             <Route path='buysell' element={<BuySell />} />
             <Route path='rentwithus' element={<RentWithUs />} />
             <Route path='mortgagecalculator' element={<MortgageCalculator />} />
             <Route path='hoainfo' element={<HoaInfo />} />
             <Route path='searchresults' element={<SearchResults />} />
           </Routes>
-
       <Footer />
 
     </>

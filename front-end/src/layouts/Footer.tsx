@@ -22,7 +22,7 @@ const NewFooter = () => {
 
   return (
     <div className='footer'>
-        <Container className="overflow-hidden" fluid="xl">
+        <Container className="overflow-hidden">
         <Row className='text-center text-md-start gx-5' style={{display: 'flex', justifyContent: 'center'}}>
             <Col lg={4} md={6} sm={12} className='mb-3'>
                 <ListGroup>
@@ -33,28 +33,28 @@ const NewFooter = () => {
             <Col lg={2} md={6} sm={12} className='mb-3'>
                 <ListGroup>
                     <ListGroup.Item className='footer-link-heading'><h5>Other Links</h5></ListGroup.Item>
-                    <ListGroup.Item> <a href='#'>Kama'āina Specials</a></ListGroup.Item>
+                    <ListGroup.Item> <a href='/specials'>Kama'āina Specials</a></ListGroup.Item>
                     <ListGroup.Item> <a href='#'>Something Else</a></ListGroup.Item>
                     <ListGroup.Item> <a href='#'>Something Else</a></ListGroup.Item>
                 </ListGroup>
             </Col>
-            <Col lg={3} md={5} sm={12} className='mb-3 px-5 iconsCol'>
+            <Col lg={3} md={6} sm={12} className='mb-3 px-4 iconsCol'>
                 <div style={{paddingBottom: '20px'}} className='d-flex'>
-                    <a href='#'>
-                        <div className='social-icon' style={{paddingRight: '20px'}}>
+                    <a href='https://www.facebook.com/MauiLandBroker/' target="_blank">
+                        <div className='social-icon' style={{paddingRight: '60px'}}>
                             <SiFacebook/>
                         </div>
                     </a>
-                    <a href='#'> 
+                    <a href='https://www.instagram.com/maui.landbroker/' target="_blank"> 
                         <div className='social-icon' style={{paddingRight: '20px'}}>
                             <FiInstagram/>
                         </div>
                     </a>
-                    <a href='#'>
+                    {/* <a href='#'>
                         <div className='social-icon'>
                             <FiTwitter/>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
                 <div style={{paddingBottom: '20px'}} className="phoneSection">
                     <a href='#'>
