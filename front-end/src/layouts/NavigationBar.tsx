@@ -22,26 +22,26 @@ function NavigationBar() {
               <Nav.Link href="/">Home</Nav.Link>
 
               <NavDropdown title="About">
-                <NavDropdown.Item href="/agents">Agents</NavDropdown.Item>
-                <NavDropdown.Item href="/about">About MLB</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/agents">Agents</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/about">About MLB</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="Associations" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/associations">Hale Kaiola</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Koa Kai</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Kualono</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Kulamalu Hilltop</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Liholani Golf Villas</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Maluhia Country Ranches</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Pu'uone Terrace</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Wailuku Country Estates</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Waiolani Elua</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Waiolani Mauka</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Wailuku Parkside</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Waikapu Gardens</NavDropdown.Item>
-                <NavDropdown.Item href="/associations">Waiale Elua</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Hale Kaiola</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Koa Kai</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Kualono</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Kulamalu Hilltop</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Liholani Golf Villas</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Maluhia Country Ranches</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Pu'uone Terrace</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Wailuku Country Estates</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Waiolani Elua</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Waiolani Mauka</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Wailuku Parkside</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Waikapu Gardens</NavDropdown.Item>
+                <NavDropdown.Item className="navDropdownItem" href="/associations">Waiale Elua</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/associations">
+                <NavDropdown.Item className="navDropdownItem" href="/associations">
                   Something else here?
                 </NavDropdown.Item>
               </NavDropdown>

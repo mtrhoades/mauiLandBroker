@@ -41,7 +41,7 @@ return (
             </div>
         </a>
 
-        <a href="https://www.panabodehomes.com/">
+        <a href="https://www.panabodehomes.com/" target="_blank">
             <div className="cardIcon">
                 <FontAwesomeIcon className='icons' icon={faHouseChimneyWindow}></FontAwesomeIcon>
                 <h5>Custom Cedar Homes</h5>
