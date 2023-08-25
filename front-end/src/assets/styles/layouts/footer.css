@@ -5,6 +5,20 @@
   color: #FAFAFA;
 }
 
+.footer .list-group-item {
+  background-color: transparent;
+  border: none;
+  color: #FAFAFA;
+}
+
+.footer .list-group-item a {
+  color: #D6D6D6;
+}
+
+.footer .list-group-item a:hover {
+  color: #B2C035;
+}
+
 .email {
   font-size: 3.5rem;
   display: flex;
@@ -52,6 +66,10 @@
   }
 }
 
+.social-icon :hover {
+  animation: bounce 1.2s ease-out;
+}
+
 .contactForm input {
   border: 1px solid black;
   border-radius: 5px;
@@ -63,4 +81,16 @@
   border-radius: 5px;
   margin-bottom: 10px;
   width: 100%;
+}
+
+.logo h4 {
+  color: #7E7D32;
+}
+
+.footer-link-heading h5 {
+  color: #7E7D32;
+}
+
+.footer-link-heading a {
+  color: #FAFAFA;
 }
