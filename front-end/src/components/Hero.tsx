@@ -170,7 +170,7 @@ const Hero = () => {
               <option value="4">4</option>
               <option value="5">5</option>
             </Form.Select>
-            <Button href="/searchresults" variant="success">Search</Button>
+            <Button className="searchButton" href="/searchresults" variant="success">Search</Button>
           </div>
         </Form>
       </div>

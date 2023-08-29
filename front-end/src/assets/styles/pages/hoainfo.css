@@ -3,7 +3,12 @@
     text-align: center;
 }
 
+.hoaInfoContainer h3 {
+    color: #3B2313;
+}
+
 .hoaInfoContainer h5 {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #7E7D32;
 }

@@ -10,8 +10,10 @@
 }
 
 .heroHeaders {
-    color: #3B2313;
-    text-shadow: 10px 5px 10px #FAFAFA;
+    color: #FAFAFA;
+    text-shadow: 10px 5px 10px #3B2313;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     position: absolute;
     z-index: 1;
     text-align: center;
@@ -20,11 +22,18 @@
 }
 
 .heroHeaders h1 {
-    font-size: 3em;
+    font-size: 4em;
+    padding-bottom: 40px;
+    font-weight: 900;
 
     @media (max-width: 1274px) {
         font-size: 2.5em;
     }
+}
+
+.heroHeaders h2 {
+    font-size: 3em;
+    font-weight: 900;
 }
 
 .hero-bottom-section {
@@ -62,24 +71,10 @@
     width: 100%;
     display: flex;
     padding: 20px 20px 20px 20px;
-
-    /* @media (max-width: 820px) {
-        width: 100% !important;
-    } */
-    @media (max-width: 1172px) {
-        
-    }
 }
 
-.searchForm Button {
-    font-size: 1rem;
-    color: #FAFAFA;
-    font-weight: bold;
-    border: none;
-    width: 100%;
+.searchButton {
+    font-weight: 700;
+    width: 120%;
+    font-size: 1.5em;
 }
-
-.searchForm Button:hover {
-    opacity: 50%;
-}
-
