@@ -17,8 +17,18 @@
     position: absolute;
     z-index: 1;
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 30rem;
     font-weight: bold;
+
+    @media (max-width: 1800px) {
+        margin-top: 20rem;
+    }
+    @media (max-width: 1199px) {
+        margin-top: 7rem;
+    }
+    @media (max-width: 700px) {
+        visibility: hidden;
+    }
 }
 
 .heroHeaders h1 {
@@ -26,37 +36,37 @@
     padding-bottom: 40px;
     font-weight: 900;
 
-    @media (max-width: 1274px) {
-        font-size: 2.5em;
+    @media (max-width: 1199px) {
+        font-size: 3em;
     }
 }
 
 .heroHeaders h2 {
     font-size: 3em;
     font-weight: 900;
+
+    @media (max-width: 1199px) {
+        font-size: 2em;
+    }
 }
 
 .hero-bottom-section {
-    width: 60%;
-    /* color: white; */
+    width: 100%;
     text-align: center;
-    margin-top: 40rem;
     position: absolute;
     z-index: 1;
     background-color: rgba(8, 12, 9, 0.6);
-    /* border-radius: 10px; */
 
-    @media (max-width: 1618px) {
-        width: 80% !important;
-    }
-    @media (max-width: 1416px) {
-        width: 100% !important;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    @media (max-width: 1274px) {
+    @media (max-width: 1199px) {
         position: relative;
-        margin: 0;
+        background-image: 
+            linear-gradient(rgb(59,35,19, .8), rgb(178,192,53, .85)),
+            url("../../images/taroLeavesCorner.jpg");
+        background-size: 27%;
+        background-position: right 0% bottom 100%;
+    }
+    @media (max-width: 600px) {
+        background-size: 37%;
     }
 }
   
@@ -64,17 +74,75 @@
     width: 100%;
     position: relative;
     z-index: 0;
-    opacity: 75%;
+    /* opacity: 75%; */
 }
 
 .searchForm {
     width: 100%;
     display: flex;
-    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    padding: 20px 20px 20px 30px;
+
+    @media (max-width: 1199px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .searchButton {
     font-weight: 700;
-    width: 120%;
     font-size: 1.5em;
+    background-color: rgb(178,192,53);
+
+    @media (max-width: 1199px) {
+        background-color: #38804F;
+    }
+}
+
+.form-select, .form-control {
+    width: 15rem;
+    text-align: center;
+
+    @media (max-width: 2075px) {
+        width: 10rem;
+    }
+    @media (max-width: 1318px) {
+        width: 9rem;
+    }
+    @media (max-width: 600px) {
+        width: 35rem;
+        margin-bottom: 5px;
+    }
+    @media (max-width: 575px) {
+        width: 30rem;
+    }
+    @media (max-width: 500px) {
+        width: 27rem;
+    }
+    @media (max-width: 450px) {
+        width: 24rem;
+    }
+    @media (max-width: 400px) {
+        width: 21rem;
+    }
+    @media (max-width: 350px) {
+        width: 18rem;
+    }
+}
+
+.firstHalfSearchForm {
+    @media (max-width: 1199px) {
+        padding-bottom: 10px;
+    }
+    @media (max-width: 600px) {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+}
+
+.secondHalfSearchForm {
+    @media (max-width: 600px) {
+        flex-direction: column;
+        align-items: center; /* makes search button smaller */
+    }
 }

@@ -60,7 +60,7 @@ const Hero = () => {
 
       <div className='hero-bottom-section'>
         <Form className="searchForm">
-          <div style={{display: 'flex'}}>
+          <div className="firstHalfSearchForm" style={{display: 'flex'}}>
             <Form.Control
               type="text"
               placeholder="MLS Number"
@@ -127,7 +127,7 @@ const Hero = () => {
               <option value="$5,000,000">$5,000,000</option>
             </Form.Select>
           </div>
-          <div style={{display: 'flex', width: '50%'}}>
+          <div className="secondHalfSearchForm" style={{display: 'flex'}}>
             <Form.Select className="me-2">
               <option value="Max Price">Max Price</option>
               <option value="$50,000">$50,000</option>

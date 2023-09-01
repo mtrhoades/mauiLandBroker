@@ -4,8 +4,8 @@ import familyImg2 from '../assets/images/FamilyUse.jpg';
 const About = () => {
   return (
     <div className="aboutContainer">
-      <h3>About Us</h3>
-      <h4>Maui Land Broker & Property Management</h4>
+      <h2>About Us</h2>
+      <h3>Maui Land Broker & Property Management</h3>
 
       <div className="about1stSection">
         <img src={familyImg}></img>

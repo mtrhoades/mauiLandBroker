@@ -1,6 +1,10 @@
 .hoaInfoContainer {
-    margin: 12rem 12rem 12rem 12rem;
+    margin: 12rem 1rem 12rem 1rem;
     text-align: center;
+
+    @media (max-width: 431px) {
+        margin-top: 15rem;
+    }
 }
 
 .hoaInfoContainer h3 {

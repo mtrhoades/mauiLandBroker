@@ -8,9 +8,9 @@ const Specials = () => {
         <img src={flowerImg} alt="hawaiian flower bouqet"></img>
         <ul>
           <li>All special discounts only apply to kama'āina individuals</li>
-          <li>1% discount for buyers OR sellers when transaction goes through MLB</li>
+          <li>3.5% discount for selling commission</li>
+          <li>2% discount if MLB brings in buyer</li>
           <li>Our staff here at MLB will give all the necessary information needed</li>
-          <li>Something else here for content</li>
         </ul>
       </div>
       

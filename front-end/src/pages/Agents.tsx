@@ -32,9 +32,6 @@ const flipCard5 = () => {
 
 
 
-// trim off ariels photo!!!!!!!!!!!!!!!!!!!!! do it now!!!!!!!!!!!! fix the stupid lapover!!!!!!!!!!!! 
-
-
   return (
     <div className="agentsWrapper">
 
@@ -47,6 +44,7 @@ const flipCard5 = () => {
         </div>
         <div className="card card-back" onClick={flipCard1}>
           <h3>Back</h3>
+          <p>Joe Blackburn has been part of the Maui Community since 1976. Joe began serving the community as a Maui Police Officer, then later for the Maui Fire Department retiring in 2002 as a Fire Rescue Captain. Joe has been a real estate agent on Maui since 1983, and has a master's degree from the University of Hawaii in Higher Education Administration, bachelor's degree from California State University at Chico in Business Administration and a bachelor's degree from Western Oregon State College in Public Fire Administration. Maui is a beautiful island to raise a family. The land is special for anyone who loves Maui. Having raised three children on Maui brings an exceptional feeling and relationship with the community, which is returned by sharing love for the Island as a real estate agent Joe is a real estate agent who is part of the fabric of the Maui community. Co-chairperson of the Maui Local Emergency Planning Committee, Basketball coach for youth teams, running leagues for our youth.</p>
         </div>
       </ReactCardFlip>
 
